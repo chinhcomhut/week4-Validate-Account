@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function checkAccount(str) {
+        let regexp =/^[_a-z0-9]{6,}$/
+        if(regexp.test(str)){
+            return true;
+        }else {
+            return false;
+        }
+    }
+    // let str = "123abc_";
+    // alert(checkAccount(str));
+</script>
+</body>
+</html>
